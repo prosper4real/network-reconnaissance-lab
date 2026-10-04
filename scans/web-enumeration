@@ -1,0 +1,17 @@
+# Nmap 7.94 scan initiated Mon Sep 28 10:27:14 2026 as: nmap -p 80 --script http-title,http-headers -oN web-enumeration.txt 10.10.10.2
+Nmap scan report for 10.10.10.2
+Host is up (0.0098s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+|_http-title: Metasploitable2 - Linux
+| http-headers: 
+|   Date: Sat, 26 Sep 2026 13:30:49 GMT
+|   Server: Apache/2.2.8 (Ubuntu) DAV/2
+|   X-Powered-By: PHP/5.2.4-2ubuntu5.10
+|   Connection: close
+|   Content-Type: text/html
+|   
+|_  (Request type: HEAD)
+
+# Nmap done at Mon Sep 28 10:27:27 2026 -- 1 IP address (1 host up) scanned in 13.53 seconds

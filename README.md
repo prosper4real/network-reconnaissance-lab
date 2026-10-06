@@ -75,8 +75,10 @@ Additional ports discovered included:
 - 36312/tcp
 - 43694/tcp
 - 50303/tcp
+
 Additional Service Enumeration
 The newly discovered ports were examined using Nmap service detection.
+
 nmap -sV -p 3632,6697,8787,33927,36312,43694,50303 10.10.10.2 -oN additional-services.txt
 
 This identified:

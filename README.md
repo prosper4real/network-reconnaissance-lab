@@ -105,7 +105,9 @@ The scan identified:
 - Page title: Metasploitable2 - Linux
 - Web server: Apache/2.2.8 (Ubuntu) DAV/2
 - PHP: PHP/5.2.4-2ubuntu5.10
+
 The HTTP response headers disclosed specific server and PHP version information, which could provide useful information to an attacker during reconnaissance.
+
 Web Content Discovery
 The Nmap http-enum NSE script was used to identify exposed web applications, files, and directories.
 
